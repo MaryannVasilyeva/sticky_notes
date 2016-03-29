@@ -1,0 +1,21 @@
+{
+  "name": "sticky_notes",
+  "description": "",
+  "main": "",
+  "authors": [
+    "MaryannVasilyeva <marvas987@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5"
+  }
+}
