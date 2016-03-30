@@ -1,0 +1,15 @@
+<div id='stickyNote'>
+  <div class='col m4 name'>
+   <span data-id='<%= id %>' ><%= title %></span>
+  </div>
+  <div class='checked col m4'>
+    <% var checked = complete == 'true' ? "checked='true'" : "" %>
+    <input type='checkbox' id='<%= id %>' <%= checked %> />
+    <label for='<%= id %>'>Complete?</label>
+  </div>
+  <div class='col m4'>
+    <button class='customBtn remove-note' data-id='<%= id %>'>Delete</button>
+  </div>
+</div>
+<br/>
+

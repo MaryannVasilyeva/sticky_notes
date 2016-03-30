@@ -1,5 +1,5 @@
 {
-  "name": "sticky_notes",
+  "name": "sticky-notes",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,16 @@
     "debug": "~2.2.0",
     "ejs": "~2.3.3",
     "express": "~4.13.1",
+    "mongoose": "^4.4.10",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.5"
   }
 }
