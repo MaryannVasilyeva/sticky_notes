@@ -3,29 +3,23 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link  href="http://fonts.googleapis.com/css?
-                family=Reenie+Beanie:regular" 
-                rel="stylesheet"
-                type="text/css">
+    <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet"type="text/css">
   </head>
   <body>
     <h1 style='text-align: center'><%= title %></h1>
-
     <div class='container'>
-    	<form class='col s12 m4' id='add_note' action='POST'>
-    		<input type='text' name='title' placeholder='Note Title'/>
-    		<input type='submit' class='btn'/>
-    	</form>
-
-        <div class='col s12 m8'>
-        	<h3 class='center'>All Sticky Notes Goes Here</h3>
-        	<hr />
-        	  <div id='notes_list'>
-        		
-        	  </div>
-        </div> 	
+      <form class='col s12 m4' id='add_note' action='POST'>
+        <input type='text' name='title' placeholder='Note Title'/>
+    	<input type='submit' class='btn'/>
+      </form>
+      <div class='col s12 m8'>
+        <h3 class='center'>All Sticky Notes Goes Here</h3>
+          <hr />
+        <div id='notes_list'> 		
+        </div>
+      </div> 	
     </div>
-    <script type='text/javascript' src='../../bower_components/jquery/dist/jquery.min.js'></script>
-    <script type='text/javascript' src='/javascripts/notes.js'/></script>
+      <script type='text/javascript' src='../../bower_components/jquery/dist/jquery.min.js'></script>
+      <script type='text/javascript' src='/javascripts/notes.js'/></script>
   </body>
 </html>
